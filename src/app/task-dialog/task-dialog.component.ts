@@ -21,6 +21,7 @@ export class TaskDialogComponent {
     this.dialogRef.close(this.data);
   }
 }
+
 export interface TaskDialogData {
   task: Partial<Task>;
   enableDelete: boolean;
